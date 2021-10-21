@@ -35,7 +35,7 @@ $(document).ready(() => {
           showConfirmButton: false,
           timer: 1500,
         }).then(() => {
-          window.location.replace("//www.google.com");
+          window.location.replace("https://classroom.its.ac.id");
         });
       },
     });
