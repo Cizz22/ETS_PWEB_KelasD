@@ -13,17 +13,17 @@ $(document).ready(() => {
         },
         nrp: {
           required: true,
+          number:true,
           minlength:10,
-          maxlength:10,
-          number:true
+          maxlength:10
         },
         jurusan: {
           required: true,
         },
         hp: {
           required: true,
-          minlength:10,
-          number:true
+          number:true,
+          minlength:10
         },
       },
       errorElement : 'div',
