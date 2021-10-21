@@ -14,14 +14,16 @@ $(document).ready(() => {
         nrp: {
           required: true,
           minlength:10,
-          maxlength:10
+          maxlength:10,
+          number:true
         },
         jurusan: {
           required: true,
         },
         hp: {
           required: true,
-          minlength:10
+          minlength:10,
+          number:true
         },
       },
       errorElement : 'div',
